@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<!-- This xml document creates a folder that will contains a C/C++ project -->
+<project name="project_name">
+    <!-- Elements describing project structure: build, inc, lib, src -->
+    <folder name="build">
+        <!-- Add here build files, i.e: Makefile -->
+    </folder>
+    <folder name="inc">
+        <!-- Add here general project includes files or include folders. -->
+    </folder>
+    <folder name="lib">
+    <!-- Add here static or/and dinamic libraries if required. -->
+    </folder>
+    <folder name="src">
+        <!-- Add sources files or folders that contains source files. -->
+    </folder>
+</project>
