@@ -12,6 +12,9 @@
     <!-- Add here static or/and dinamic libraries if required. -->
     </folder>
     <folder name="src">
-        <!-- Add sources files or folders that contains source files. -->
+        <!-- Add source/header files or folders that contains source files. -->
+        <file name="main.c">
+            <!-- Add here code prototypes. -->
+        </file>
     </folder>
 </project>

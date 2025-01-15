@@ -34,6 +34,10 @@ function xmlAnalizer {
                             mkdir $DIR
                             cd $DIR
                         fi
+                    elif [[ $row =~ "<file name="+'"'+.+'"'+.+">"? ]]; then
+                        FILE=${row#*'"'}
+                        FILE=${FILE%'"'*}
+                        > $FILE
                     elif [[ $row =~ "</folder>"? ]]; then
                         cd ..
                     elif [[ $row =~ "</project>"? ]]; then
